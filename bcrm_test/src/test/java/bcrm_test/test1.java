@@ -45,7 +45,7 @@ public class test1 {
 			driver.switchTo().frame("InlineDialog_Iframe");
 			driver.findElement(By.xpath("//button[@id='butBegin']")).click();
 			System.out.println("clicked on Button");
-			System.out.println("**************");
+			System.out.println("****changes to git**********");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}	
